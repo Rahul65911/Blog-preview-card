@@ -25,7 +25,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/Rahul65911/Blog-preview-card)
-- Live Site URL: [Add live site URL here]([https://your-live-site-url.com](https://rahul65911.github.io/Blog-preview-card/))
+- Live Site URL: [Add live site URL here](https://rahul65911.github.io/Blog-preview-card/)
 
 ### Built with
 

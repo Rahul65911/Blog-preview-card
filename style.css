@@ -40,6 +40,11 @@ div.img_container {
     align-items: center;
 }
 
+div.img_container img:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
 div.img_container img {
     display: block;
     max-width: 100%;
@@ -60,6 +65,11 @@ h3.learning {
     border-radius: 8px;
     font-weight: 950;
     margin-bottom: 10px;
+}
+
+h3.learning:hover {
+    background-color: hsl(47, 88%, 50%);
+    cursor: pointer;
 }
 
 p.date {
@@ -94,6 +104,11 @@ div.person {
 
 div.person img {
     border-radius: 50%;
+}
+
+div.person:hover{
+    opacity: 60%;
+    cursor: pointer;
 }
 
 div.person h3 {

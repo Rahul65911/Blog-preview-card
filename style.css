@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'Figtree';
+    src: url(/assets/fonts/Figtree-VariableFont_wght.ttf);
+}
+
+* {
+    font-family: 'Figtree', sans-serif;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+div.card {
+    width: 360px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+    border: 1px solid black;
+    box-shadow: 8px 8px 0px hsl(0, 0%, 7%);
+}
+
+div.img_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.img_container img {
+    display: block;
+    max-width: 100%;
+    padding: 16px;
+    border-radius: 30px;
+}
+
+.details {
+    display: block;
+    max-width: 100%;
+    padding: 0 16px;
+}
+
+h3.learning {
+    display: inline-block;
+    background-color: hsl(47, 88%, 63%);
+    padding: 8px 20px;
+    border-radius: 8px;
+    font-weight: 950;
+    margin-bottom: 10px;
+}
+
+p.date {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 13px;
+    font-weight: 600;
+    color: black;
+}
+
+h2 {
+    font-size: 22px;
+    font-weight: 950;
+    cursor: pointer;
+}
+
+h2:hover {
+    color: hsl(47, 88%, 63%);
+}
+
+p {
+    color: hsl(0, 0%, 42%);
+    line-height: 1.4;
+    font-weight: 500;
+}
+
+div.person {
+    display: flex;
+    margin-bottom: 16px;
+    margin-top: 25px;
+}
+
+div.person img {
+    border-radius: 50%;
+}
+
+div.person h3 {
+    margin: 5px 12px;
+    font-weight: 800;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 375px) {
+    div.card, footer {
+        width: 260px;
+    }
+
+    .card {
+        transform: translate(-10%, -10%);
+        /* margin: 20px; */
+        /* display: block; */
+        /* margin-top: 100px; */
+    }
+}
+
+footer {
+    position: absolute;
+    bottom: 15px;
+}
